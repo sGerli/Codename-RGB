@@ -1,0 +1,107 @@
+﻿<Page
+    x:Class="Codename_RGB.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Codename_RGB"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF2D3341" Padding="0" RequestedTheme="Dark">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="60"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="5" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Foreground="White" Background="#006A6A6A" BorderBrush="#FF636363" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" FontSize="48" Padding="0,0,0,4"/>
+            <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="48" Foreground="White" Background="#006A6A6A" BorderBrush="#FF636363" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.Column="1" Padding="0"/>
+            <Button x:Name="button_Copy1" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="48" Foreground="White" Background="#006A6A6A" BorderBrush="#FF636363" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.Column="2" Padding="0"/>
+            <Button x:Name="button_Copy2" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="48" Foreground="White" Background="#006A6A6A" BorderBrush="#FF636363" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.Column="3" Padding="0"/>
+            <Button x:Name="button_Copy3" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="48" Foreground="White" Background="#006A6A6A" BorderBrush="#FF636363" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.Column="4" Padding="0"/>
+        </Grid>
+        <Grid x:Name="rGrid" Grid.Column="2" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, LeftPosition, RightPosition, TopPosition, BottomPosition">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="92*"/>
+                <RowDefinition Height="807*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="rLabel" TextWrapping="Wrap" Text="0" Margin="0" FontSize="80" TextAlignment="Center" FontFamily="Segoe UI Light" Foreground="#FFEEEEEE" VerticalAlignment="Center" Height="86"/>
+            <Slider x:Name="rSlider" Orientation="Vertical" Maximum="255" RequestedTheme="Dark" Margin="0,10,0,20" RenderTransformOrigin="0.5,0.5" Grid.Row="1" d:LayoutOverrides="Width, LeftPosition, RightPosition" HorizontalAlignment="Center" ValueChanged="rSlider_ValueChanged" Foreground="#FFE40E0E"/>
+        </Grid>
+        <Grid x:Name="gGrid" Grid.Column="3" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, LeftPosition, RightPosition, TopPosition, BottomPosition">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="92*"/>
+                <RowDefinition Height="807*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="gLabel" TextWrapping="Wrap" Text="0" Margin="0" FontSize="80" TextAlignment="Center" FontFamily="Segoe UI Light" Foreground="#FFEEEEEE" VerticalAlignment="Center" Height="86"/>
+            <Slider x:Name="gSlider" Orientation="Vertical" Maximum="255" RequestedTheme="Dark" Margin="0,10,0,20" RenderTransformOrigin="0.5,0.5" Grid.Row="1" d:LayoutOverrides="Width, LeftPosition, RightPosition" HorizontalAlignment="Center" Foreground="#FF00D714" ValueChanged="gSlider_ValueChanged"/>
+        </Grid>
+        <Grid x:Name="bGrid" Grid.Column="4" Grid.Row="1" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, LeftPosition, RightPosition, TopPosition, BottomPosition">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="92*"/>
+                <RowDefinition Height="807*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="bLabel" TextWrapping="Wrap" Text="0" Margin="0" FontSize="80" TextAlignment="Center" FontFamily="Segoe UI Light" Foreground="#FFEEEEEE" VerticalAlignment="Center" Height="86"/>
+            <Slider x:Name="bSlider" Orientation="Vertical" Maximum="255" RequestedTheme="Dark" Margin="0,10,0,20" RenderTransformOrigin="0.5,0.5" Grid.Row="1" d:LayoutOverrides="Width, LeftPosition, RightPosition" HorizontalAlignment="Center" ValueChanged="bSlider_ValueChanged"/>
+        </Grid>
+        <TextBlock x:Name="statusTextBlock" Grid.Column="5" Height="30" Margin="0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" TextAlignment="Right" FontSize="24"/>
+        <ProgressBar x:Name="loadingBar" Grid.Column="5" Height="20" Margin="10,0" Grid.Row="2" VerticalAlignment="Center" IsIndeterminate="True"/>
+        <Grid Grid.ColumnSpan="7" Margin="0,0,0,10" Background="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="60"/>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="0" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="68"/>
+                    <ColumnDefinition Width="68"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="68"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="163"/>
+                    <ColumnDefinition Width="241"/>
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="textBlock" Margin="0,4,0,3" TextWrapping="Wrap" Text="Arduino IP:" Grid.Column="6" FontSize="32" Padding="0" VerticalAlignment="Center" FlowDirection="RightToLeft" Height="43"/>
+                <TextBox x:Name="ipTextBox" Grid.Column="7" Margin="10,5" TextWrapping="Wrap" Text="" RequestedTheme="Dark" FontSize="24" PlaceholderText="Ex: 192.168.1.2" Padding="10,0"/>
+                <Button x:Name="connectButton" Content="Connect" Grid.Column="8" HorizontalAlignment="Stretch" Margin="0,8,0,7" VerticalAlignment="Center" Height="35" FontSize="18.667" Padding="0" Click="connectButton_Click"/>
+                <AppBarButton x:Name="blackoutButton" HorizontalAlignment="Left" Icon="Clear" Label="" Margin="0,2" VerticalAlignment="Stretch"/>
+                <AppBarButton x:Name="addPresetButton" HorizontalAlignment="Left" Icon="Add" Label="" Margin="0,2" VerticalAlignment="Stretch" Grid.Column="1">
+                    <AppBarButton x:Name="appBarButton_Copy1" HorizontalAlignment="Left" Icon="Add" Label="" VerticalAlignment="Stretch" Height="46" Width="68"/>
+                </AppBarButton>
+                <Slider x:Name="velocitySlider" Grid.Column="3" Margin="0,6"/>
+                <AppBarButton x:Name="stopPreset" HorizontalAlignment="Left" Icon="Stop" Label="" Margin="0,0,0,2" VerticalAlignment="Bottom" Grid.Column="4" Height="46">
+                    <AppBarButton x:Name="appBarButton_Copy3" HorizontalAlignment="Left" Icon="Add" Label="" VerticalAlignment="Stretch" Height="46" Width="68"/>
+                </AppBarButton>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Page>
