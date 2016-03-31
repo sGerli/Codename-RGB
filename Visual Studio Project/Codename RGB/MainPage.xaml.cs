@@ -15,12 +15,11 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Codename_RGB
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// Control your RGB LED strip through WiFi with an Arduino / Genuino with internet capabilities.
     /// </summary>
     public sealed partial class MainPage : Page
     {

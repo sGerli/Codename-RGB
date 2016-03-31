@@ -1,1 +1,1 @@
-C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Codename RGB.csproj;x64
+C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Codename RGB.csproj;x64

@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>e4d4d793-10ef-4006-9821-4edfb56a83e1</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x86\Debug\Codename RGB.exe">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\bin\x86\Debug\Codename RGB.exe">
       <PackagePath>entrypoint\Codename RGB.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Stefano\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -357,46 +357,182 @@
     <AppxPackagedFile Include="C:\Users\Stefano\.nuget\packages\Windows-Remote-Arduino\1.3.0\lib\uap10.0\Microsoft.Maker.Serial.winmd">
       <PackagePath>Microsoft.Maker.Serial.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Target.scale-100.png">
+      <PackagePath>Assets\Target.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Target.scale-150.png">
+      <PackagePath>Assets\Target.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Target.scale-1600.png">
+      <PackagePath>Assets\Target.scale-1600.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Target.scale-300.png">
+      <PackagePath>Assets\Target.scale-300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x86\Debug\Codename RGB.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\bin\x86\Debug\Codename RGB.xr.xml">
       <PackagePath>Codename RGB.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x86\Debug\Core\Codename RGB.exe">
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\bin\x86\Debug\Core\Codename RGB.exe">
       <PackagePath>Codename RGB.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

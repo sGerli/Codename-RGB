@@ -132,15 +132,23 @@ namespace Codename_RGB.Codename_RGB_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "Codename_RGB.MainPage";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable = new string[7];
+            _typeNameTable[0] = "Windows.UI.Color";
+            _typeNameTable[1] = "System.ValueType";
+            _typeNameTable[2] = "Object";
+            _typeNameTable[3] = "Byte";
+            _typeNameTable[4] = "Codename_RGB.MainPage";
+            _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[6] = "Windows.UI.Xaml.Controls.UserControl";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::Codename_RGB.MainPage);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable = new global::System.Type[7];
+            _typeTable[0] = typeof(global::Windows.UI.Color);
+            _typeTable[1] = typeof(global::System.ValueType);
+            _typeTable[2] = typeof(global::System.Object);
+            _typeTable[3] = typeof(global::System.Byte);
+            _typeTable[4] = typeof(global::Codename_RGB.MainPage);
+            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +183,7 @@ namespace Codename_RGB.Codename_RGB_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Codename_RGB.MainPage(); }
+        private object Activate_4_MainPage() { return new global::Codename_RGB.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,18 +195,42 @@ namespace Codename_RGB.Codename_RGB_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Codename_RGB.MainPage
+            case 0:   //  Windows.UI.Color
+                userType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.AddMemberName("A");
+                userType.AddMemberName("B");
+                userType.AddMemberName("G");
+                userType.AddMemberName("R");
+                xamlType = userType;
+                break;
+
+            case 1:   //  System.ValueType
+                userType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 2:   //  Object
+                xamlType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  Byte
+                userType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Codename_RGB.MainPage
                 userType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_4_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
+            case 5:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+            case 6:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -206,11 +238,79 @@ namespace Codename_RGB.Codename_RGB_XamlTypeInfo
         }
 
 
+        private object get_0_Color_A(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.A;
+        }
+        private void set_0_Color_A(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.A = (global::System.Byte)Value;
+        }
+        private object get_1_Color_B(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.B;
+        }
+        private void set_1_Color_B(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.B = (global::System.Byte)Value;
+        }
+        private object get_2_Color_G(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.G;
+        }
+        private void set_2_Color_G(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.G = (global::System.Byte)Value;
+        }
+        private object get_3_Color_R(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.R;
+        }
+        private void set_3_Color_R(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.R = (global::System.Byte)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "Windows.UI.Color.A":
+                userType = (global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlMember(this, "A", "Byte");
+                xamlMember.Getter = get_0_Color_A;
+                xamlMember.Setter = set_0_Color_A;
+                break;
+            case "Windows.UI.Color.B":
+                userType = (global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlMember(this, "B", "Byte");
+                xamlMember.Getter = get_1_Color_B;
+                xamlMember.Setter = set_1_Color_B;
+                break;
+            case "Windows.UI.Color.G":
+                userType = (global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlMember(this, "G", "Byte");
+                xamlMember.Getter = get_2_Color_G;
+                xamlMember.Setter = set_2_Color_G;
+                break;
+            case "Windows.UI.Color.R":
+                userType = (global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Codename_RGB.Codename_RGB_XamlTypeInfo.XamlMember(this, "R", "Byte");
+                xamlMember.Getter = get_3_Color_R;
+                xamlMember.Setter = set_3_Color_R;
+                break;
+            }
             return xamlMember;
         }
     }
