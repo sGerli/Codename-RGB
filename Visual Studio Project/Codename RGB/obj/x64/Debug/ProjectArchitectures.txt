@@ -1,0 +1,1 @@
+C:\Users\Stefano\Documents\GitHub\Codename-RGB\Visual Studio Project\Codename RGB\Codename RGB.csproj;x64

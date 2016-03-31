@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>STEFANO-PC</Machine>
+    <WindowsUser>Stefano</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>e4d4d793-10ef-4006-9821-4edfb56a83e1</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\obj\x64\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>62B580264D7C243142D0CBB0F8712AEF02B62E453906EFFE323AF26FD46EB6B9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e4d4d793-10ef-4006-9821-4edfb56a83e1_1.0.0.0_x64__1ezvpgfjbzwnw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e4d4d793-10ef-4006-9821-4edfb56a83e1_1ezvpgfjbzwnw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e4d4d793-10ef-4006-9821-4edfb56a83e1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Stefano</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-31T01:26:38.000</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Target.scale-100.png">
+      <PackagePath>Assets\Target.scale-100.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Target.scale-150.png">
+      <PackagePath>Assets\Target.scale-150.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Target.scale-1600.png">
+      <PackagePath>Assets\Target.scale-1600.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Target.scale-300.png">
+      <PackagePath>Assets\Target.scale-300.png</PackagePath>
+      <Modified>2016-03-30T03:34:31.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-30T03:34:31.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-10-10T18:56:18.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Codename RGB.dll">
+      <PackagePath>Codename RGB.dll</PackagePath>
+      <Modified>2016-03-31T01:26:37.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Codename RGB.exe">
+      <PackagePath>Codename RGB.exe</PackagePath>
+      <Modified>2016-03-31T01:26:37.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Microsoft.Maker.Firmata.dll">
+      <PackagePath>Microsoft.Maker.Firmata.dll</PackagePath>
+      <Modified>2016-03-05T00:28:48.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Microsoft.Maker.Firmata.winmd">
+      <PackagePath>Microsoft.Maker.Firmata.winmd</PackagePath>
+      <Modified>2016-03-05T00:28:48.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Microsoft.Maker.RemoteWiring.dll">
+      <PackagePath>Microsoft.Maker.RemoteWiring.dll</PackagePath>
+      <Modified>2016-03-05T00:28:48.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Microsoft.Maker.RemoteWiring.winmd">
+      <PackagePath>Microsoft.Maker.RemoteWiring.winmd</PackagePath>
+      <Modified>2016-03-05T00:28:48.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Microsoft.Maker.Serial.dll">
+      <PackagePath>Microsoft.Maker.Serial.dll</PackagePath>
+      <Modified>2016-03-05T00:28:48.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\Microsoft.Maker.Serial.winmd">
+      <PackagePath>Microsoft.Maker.Serial.winmd</PackagePath>
+      <Modified>2016-03-05T00:28:48.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stefano\Documents\Visual Studio 2015\Projects\Codename RGB\Codename RGB\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-03-31T01:25:38.717</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
