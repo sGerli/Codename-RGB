@@ -7,7 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#FF2D3341" Padding="0" RequestedTheme="Dark">
+    <Grid Padding="0" RequestedTheme="Dark">
+        <Grid.Background>
+            <SolidColorBrush Color="#FF2D3341"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition/>
